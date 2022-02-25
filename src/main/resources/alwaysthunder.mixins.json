@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "me.duncanruns.alwaysthunder.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "DebugHudMixin",
+    "MinecraftServerMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

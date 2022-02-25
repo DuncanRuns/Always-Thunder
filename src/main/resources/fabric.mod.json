@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "alwaysthunder",
+  "version": "${version}",
+  "name": "Always Thunder",
+  "description": "A fabric mod to cause every rainfall to be thunder.",
+  "authors": [
+    "DuncanRuns"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/alwaysthunder/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.duncanruns.alwaysthunder.AlwaysThunder"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "alwaysthunder.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.9"
+  }
+}
